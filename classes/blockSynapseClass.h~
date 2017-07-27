@@ -1,0 +1,18 @@
+//synapse in end of a code block.
+
+class blockSynapseClsss
+{
+private:
+	//the commandBlock beyound the code block.
+	commandBlockClass* codeBlockBlock;
+public:
+	//set the block beyound the code block.
+	blockSynepseClass(commandBlockClass x) : codeBlockBlock(x) {}
+	//activate synapse.(tell synapse to do what it is to do).
+	void fire()
+	{
+		//end code block.
+		codeBlockBlock -> burn(1);
+	}
+};
+

@@ -1,0 +1,17 @@
+//synapse in buttom of a command block.
+
+class exitSynapseClsss
+{
+private:
+	//the synapse below the synapse.
+	enterSynaposeClass* joinedSynapse;
+public:
+	//join the synapse below.
+	exitSynepseClass(enterSynapseClass x) : joinedSynapse(x) {}
+	//activate synapse.(tell synapse to do what it is to do).
+	void fire()
+	{
+		//activate the joined synapse.
+		joinedSynapse -> fire();
+	}
+};
